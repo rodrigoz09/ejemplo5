@@ -12,11 +12,5 @@ script:
   - npm run test
   - npm run build
 
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $github_token
-  local_dir: build
-  on:
-    branch: main
+
 
