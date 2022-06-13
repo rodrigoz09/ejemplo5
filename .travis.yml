@@ -19,3 +19,7 @@ deploy:
   on:
     branch: main
 
+addons:
+  sonarcloud: 
+    organization: 'rodrigoz09'
+    token: 79adcb649107a93ba93c4ffe413cbd5a34f6724e
