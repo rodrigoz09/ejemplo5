@@ -7,10 +7,8 @@ node_js:
 
 script: 
   - npm install
-  - npm install --save-dev gh-pages  
   - npm run test
   - npm run build
-  - npm run deploy
   
 
 deploy:
