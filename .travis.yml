@@ -21,6 +21,9 @@ deploy:
   on:
     branch: main
 
+notification:
+  slack: icrodrigoz09:WaL7ALnOSVX2GIOuVznXhBUD
+
 addons:
   sonarcloud: 
     organization: 'rodrigoz09'
