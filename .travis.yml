@@ -5,11 +5,9 @@ cache: npm
 node_js:
   - "15"
 
-install:
-  - npm install --save-dev gh-pages
-
 script: 
   - npm install
+  - npm install --save-dev gh-pages  
   - npm run test
   - npm run build
   - npm run deploy
