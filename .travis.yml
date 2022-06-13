@@ -8,7 +8,6 @@ node_js:
 script: 
   - npm install
   - npm run test
-  - npm start
   - npm run build
   
 
