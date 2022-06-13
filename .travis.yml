@@ -9,7 +9,6 @@ script:
   - npm install
   - npm run test
   - npm run build
-  - npm run deploy
   
 
 deploy:
@@ -18,4 +17,4 @@ deploy:
   github_token: $github_token
   local_dir: build
   on:
-    branch: main
+    branch: gh-pages
